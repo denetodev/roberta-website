@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definindo a fonte ITC Edwardian Script */
+@font-face {
+  font-family: "ITCEdwardianScript";
+  src: url("./assets/fonts/edwardian-script-itc.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Definindo a fonte ITC Edwardian Script Bold */
+@font-face {
+  font-family: "ITCEdwardianScript";
+  src: url("./assets/fonts/edwardian-script-itc-std-bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Definindo a fonte Gorditas Regular */
+@font-face {
+  font-family: "Gorditas";
+  src: url("./assets/fonts/Gorditas-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Definindo a fonte Gorditas Bold */
+@font-face {
+  font-family: "Gorditas";
+  src: url("./assets/fonts/Gorditas-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
